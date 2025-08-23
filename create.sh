@@ -17,7 +17,7 @@ fi
 mkdir -p src/bin
 
 cat >"$RUST_FILE" <<EOF
-
+use std::io;
 
 fn main() {
     let mut buffer = String::new();
