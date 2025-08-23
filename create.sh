@@ -19,7 +19,14 @@ mkdir -p src/bin
 cat >"$RUST_FILE" <<EOF
 
 
-fn main() {}
+fn main() {
+    let mut buffer = String::new();
+    let stdin = io::stdin();
+    stdin
+        .read_line(&mut buffer)
+        .expect("Couldnt read from stdin");
+    println!("{}");
+}
 
 #[cfg(test)]
 mod tests {
