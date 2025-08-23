@@ -1,3 +1,5 @@
+use std::io;
+
 fn football(input: String) -> String {
     let mut a = 0;
     let mut b = 0;
@@ -18,7 +20,14 @@ fn football(input: String) -> String {
     return "NO".to_string();
 }
 
-fn main() {}
+fn main() {
+    let mut buffer = String::new();
+    let stdin = io::stdin();
+    stdin
+        .read_line(&mut buffer)
+        .expect("Couldnt read from stdin");
+    println!("{}", football(buffer));
+}
 
 #[cfg(test)]
 mod tests {
