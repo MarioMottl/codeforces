@@ -56,3 +56,7 @@ path = "src/bin/236a.rs"
 [[bin]]
 name = "281a"
 path = "src/bin/281a.rs"
+
+[[bin]]
+name = "791a"
+path = "src/bin/791a.rs"
