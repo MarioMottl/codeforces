@@ -19,18 +19,20 @@ mkdir -p src/bin
 cat >"$RUST_FILE" <<EOF
 use std::io;
 
+fn solver() {}
+
 fn main() {
-    let mut buffer = String::new();
+    let mut line = String::new();
     let stdin = io::stdin();
-    stdin
-        .read_line(&mut buffer)
-        .expect("Couldnt read from stdin");
-    println!("{}");
+    stdin.read_line(&mut line).expect("Couldnt read from stdin");
 }
 
 #[cfg(test)]
 mod tests {
     use super::*;
+
+    #[test]
+    fn example1() {}
 }
 EOF
 
