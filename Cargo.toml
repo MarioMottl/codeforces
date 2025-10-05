@@ -152,3 +152,43 @@ path = "src/bin/200b.rs"
 [[bin]]
 name = "160a"
 path = "src/bin/160a.rs"
+
+[[bin]]
+name = "318a"
+path = "src/bin/318a.rs"
+
+[[bin]]
+name = "228a"
+path = "src/bin/228a.rs"
+
+[[bin]]
+name = "61a"
+path = "src/bin/61a.rs"
+
+[[bin]]
+name = "705a"
+path = "src/bin/705a.rs"
+
+[[bin]]
+name = "1328a"
+path = "src/bin/1328a.rs"
+
+[[bin]]
+name = "133a"
+path = "src/bin/133a.rs"
+
+[[bin]]
+name = "405a"
+path = "src/bin/405a.rs"
+
+[[bin]]
+name = "520a"
+path = "src/bin/520a.rs"
+
+[[bin]]
+name = "469a"
+path = "src/bin/469a.rs"
+
+[[bin]]
+name = "144a"
+path = "src/bin/144a.rs"

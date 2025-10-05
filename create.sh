@@ -23,8 +23,8 @@ fn solver() {}
 
 fn main() {
     let mut line = String::new();
-    let stdin = io::stdin();
-    stdin.read_line(&mut line).expect("Couldnt read from stdin");
+    let mut stdin = io::stdin();
+    stdin.read_to_string(&mut line).expect("Couldnt read from stdin");
 }
 
 #[cfg(test)]
